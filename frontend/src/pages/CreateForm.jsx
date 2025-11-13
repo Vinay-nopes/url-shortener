@@ -13,7 +13,7 @@ export default function CreateForm({ onCreate }) {
   async function submit(e) {
     e.preventDefault();
     try {
-      const res = await axios.post('http://localhost:5000/api/links/create', {
+      const res = await axios.post('https://url-shortener-mgho.onrender.com/api/links/create', {
         target, alias: alias || undefined, password: password || undefined,
         expireInSeconds: expire ? Number(expire) : undefined
       });
