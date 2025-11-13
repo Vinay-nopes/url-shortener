@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "@supabase/supabase-js": "^2.81.1",
+    "bcryptjs": "^3.0.3",
+    "nanoid": "^5.1.6",
+    "react-share": "^5.2.2"
+  }
+}
