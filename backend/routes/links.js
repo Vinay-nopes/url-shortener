@@ -1,7 +1,7 @@
 const express = require('express');
 const router = express.Router();
 const Link = require('../models/Link');
-const bcrypt = require('bcrypt');
+const bcrypt = require('bcryptjs');
 const { generateAlias } = require('../utils/shortid');
 
 // create link
